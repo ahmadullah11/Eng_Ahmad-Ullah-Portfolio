@@ -153,7 +153,7 @@ const Hero = () => {
         className="w-full md:w-1/2 flex flex-col items-center font-mono relative mt-4 lg:mt-10 md:mt-0"
       >
         <img
-          src="waqas.png"
+          src="profile.jpeg"
           alt="Ahmad Ullah"
           className="w-64 bg-gray-200 h-64 dark:bg-gray-900 rounded-full border-2 cursor-pointer border-yellow-400 object-cover transition-transform duration-300 hover:scale-110 shadow-[0_0_70px_rgba(255,215,0,0.6)]"
         />
