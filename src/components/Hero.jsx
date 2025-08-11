@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer"; // For detecting when elements are in view
 import { IoDiamond } from "react-icons/io5";
-import waqas from "../../public/waqas.png";
+import waqas from "../../public/profile.jpeg";
 import {
   SiNextdotjs,
   SiReact,
