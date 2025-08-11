@@ -44,11 +44,10 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-2xl font-bold font-sans bg-gradient-to-t from-yellow-500 to-orange-500 bg-clip-text text-transparent">
-              AHMAD
+              Ahmad Ullah
             </h2>
             <p className="mt-4 text-gray-400">
-              Elevate your online presence with WGDeveloper’s innovative web
-              development solutions.
+              Crafting modern, responsive, and SEO-friendly websites to bring your ideas to life.
             </p>
           </motion.div>
 
@@ -217,7 +216,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="border-t border-yellow-500 mt-8 pt-6 text-center text-gray-300 text-sm"
         >
-          © {new Date().getFullYear()} AUDeveloper. All rights reserved.
+          © {new Date().getFullYear()} Ahmad Developer. All rights reserved.
         </motion.div>
       </div>
     </footer>

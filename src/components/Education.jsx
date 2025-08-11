@@ -108,7 +108,7 @@ export default function Education() {
           </p>
           <p className="flex items-center gap-2 text-gray-700 font-mono dark:text-gray-300">
             <MdOutlineGrade className="text-yellow-500 font-extrabold text-3xl" />
-            Earned a GPA of 3.41 out of 4.00
+            CGPA of 3.41 out of 4.00
           </p>
         </motion.div>
       </motion.div>

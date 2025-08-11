@@ -54,7 +54,7 @@ export default function AboutMe() {
             >
               <h3 className="text-6xl font-extrabold bg-gradient-to-r from-yellow-500 to-purple-600 bg-clip-text text-transparent">
                 {inViewStats ? (
-                  <CountUp start={0} end={2.9} duration={2.5} decimals={1} />
+                  <CountUp start={0} end={1.9} duration={2.5} decimals={1} />
                 ) : (
                   "0"
                 )}
@@ -72,7 +72,7 @@ export default function AboutMe() {
             >
               <h3 className="text-6xl font-sans font-extrabold bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">
                 {inViewStats ? (
-                  <CountUp start={0} end={10} duration={2.5} />
+                  <CountUp start={0} end={5} duration={2.5} />
                 ) : (
                   "0"
                 )}
@@ -143,7 +143,7 @@ export default function AboutMe() {
           className="bg-gray-200 dark:bg-gray-900 p-8 shadow-gray-500 rounded-xl shadow-lg font-sans hover:scale-105 transition-transform duration-350 ease-in-out hover:shadow-yellow-500"
         >
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            A passionate <strong>Software Engineer</strong> with over 3.9 years
+            A passionate <strong>Software Engineer</strong> with over 1.9 years
             of experience in developing high-performance, scalable web
             applications. My expertise lies in leveraging modern technologies
             such as{" "}

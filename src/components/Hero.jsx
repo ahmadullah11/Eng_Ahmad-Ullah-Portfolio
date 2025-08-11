@@ -123,8 +123,8 @@ const Hero = () => {
 
         <div className="flex  gap-4 mt-8 mb-4 ">
              <a
-      href="/CV_ahmad.pdf"           // Make sure this path points to your actual resume file
-      download="CV_ahmad.pdf"       // This sets the downloaded file name
+      href="/Eng_Ahmad Ullah (Resume).pdf" // Make sure this path points to your actual resume file
+      download="Eng_Ahmad Ullah (Resume).pdf"       // This sets the downloaded file name
       className="flex items-center justify-center px-4 lg:px-6 py-2 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold rounded-lg hover:scale-105 shadow-md transition-transform duration-300 ease-in-out"
     >
       <FaDownload className="inline mr-2 animate-bounce font-mono" />
@@ -133,7 +133,7 @@ const Hero = () => {
           
 
          <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmadullahk543@gmail.com&su=Hire%20Ahmad%20Ullah&body=Hello%20Ahmad,%0D%0A%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you."
+  href="https://drive.google.com/file/d/1ARwsJ2j1A3WvdOq-b1uXJzbvVk0A89ip/view?usp=drive_link"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center justify-center px-6 py-2 border border-yellow-400 text-yellow-400 font-bold rounded-lg hover:bg-yellow-500 hover:text-white hover:scale-105"

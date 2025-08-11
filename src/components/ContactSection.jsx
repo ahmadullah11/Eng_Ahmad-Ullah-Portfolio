@@ -193,7 +193,7 @@ export default function ContactSection() {
             >
               <span className={`${item.color} text-2xl`}>{item.icon}</span>
               <span
-                style={{ textShadow: "3px 3px 6px rgba(250, 250, 250, 0.5)" }}
+                // style={{ textShadow: "3px 3px 6px rgba(250, 250, 250, 0.5)" }}
                 className={`${item.color}`}
               >
                 {item.name}
@@ -209,7 +209,7 @@ export default function ContactSection() {
             <FaEnvelope className="text-red-500 text-2xl" />
             <span
               className="text-gray-900 dark:text-red-500"
-              style={{ textShadow: "2px 2px 20px rgba(250, 250, 250, 0.5)" }}
+              // style={{ textShadow: "2px 2px 20px rgba(250, 250, 250, 0.5)" }}
             >
               ahmadullahk543@gmail.com
             </span>

@@ -49,7 +49,7 @@ export default function ResumeCard() {
           className="flex flex-col items-center"
         >
           <img
-            src="/waqas.png"
+            src="/profile.jpeg"
             alt="Profile"
             className="w-20 h-20 rounded-full border-4 border-yellow-500 shadow-2xl shadow-yellow-500"
           />
@@ -62,8 +62,8 @@ export default function ResumeCard() {
           <div className="flex lg:flex-row flex-col gap-4 mt-4">
             <motion.a
               whileHover={{ scale: 1.05 }}
-              href="/CV_ahmad.pdf"
-              download="Waqas_Gul_Resume.pdf"
+              href="/Eng_Ahmad Ullah (Resume).pdf"
+              download="Eng_Ahmad Ullah (Resume).pdf"
               className="flex items-center justify-center cursor-pointer hover:shadow-yellow-500 gap-2 lg:px-6 px-3 py-2 bg-yellow-400 rounded-lg relative overflow-hidden ease-in-out hover:bg-yellow-500 active:scale-95 font-mono bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold shadow-lg hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl group hover:rotate-12"
             >
               <FaDownload className="font-sans text-gray-700 animate-bounce transition-all duration-300 ease-in-out group-hover:translate-y-1" />
