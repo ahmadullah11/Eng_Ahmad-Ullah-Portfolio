@@ -109,9 +109,9 @@ export default function ContactSection() {
     e.preventDefault();
 
     // EmailJS credentials
-    const serviceID = "service_88osjpn";
-    const templateID = "template_zmddcab";
-    const userID = "oGENuhiJqtOm9HIDW";
+    const serviceID = "service_0lxlxog";
+    const templateID = "template_0d6b9ee";
+    const userID = "ddC_87w8zYuZGCHPM";
 
     // Send the form data using EmailJS
     emailjs
