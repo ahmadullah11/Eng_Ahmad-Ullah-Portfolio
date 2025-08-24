@@ -92,7 +92,7 @@ export default function Education() {
               </span>
             </div>
             <span className="ml-auto px-3 py-1 text-sm rounded-full font-sans font-bold bg-gray-100 dark:bg-gray-700 dark:text-white">
-              🎓 Graduation
+              🎓 Graduated
             </span>
           </div>
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white font-sans">

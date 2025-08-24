@@ -12,56 +12,59 @@ import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 // Export the certificates array
+// Export the certificates array
 export const certificates = [
   {
-    platform: "Udemy",
-    title: "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    platform: "ITSolera",
+    title: "MERN Stack Developer (Intern)",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: <SiUdemy className="text-purple-500 text-5xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">I</span>,
     link: "#",
-    image: "/project.png",
+    image: "/ITSolera-letter.png",
   },
   {
-    platform: "Udemy",
-    title: "The Complete JavaScript Course 2020: From Zero to Expert!",
+    platform: "MarketBrains",
+    title: "Web Development Internship",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: <SiUdemy className="text-purple-500 text-5xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">M</span>,
     link: "#",
-    image: "/project.png",
+    image: "/MarketBrains.png",
   },
   {
     platform: "Coursera",
-    title: "Google UX Design",
+    title: "Advanced Frontend Development and Deployment (Packt)",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: <SiCoursera className="text-blue-600 text-5xl p-2 font-bold" />,
-    link: "#",
-    image: "/project.png",
+    // icon2: <SiCoursera className="text-blue-600 text-5xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">C</span>,
+    link: "https://coursera.org/verify/B37WZW3IAJSX",
+    image: "/packet.png",
   },
   {
-    platform: "FreeCodeCamp",
-    title: "Front End Libraries",
+    platform: "Coursera",
+    title: "Introduction to Software Engineering (IBM)",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: (
-      <LiaFreeCodeCamp className="text-green-500 text-5xl p-2 font-bold" />
-    ),
-    link: "#",
-    image: "/project.png",
+    // icon2: <SiCoursera className="text-blue-600 text-5xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">C</span>,
+    link: "https://coursera.org/verify/47QGFNF1B8EM",
+    image: "/IBM.png",
   },
   {
-    platform: "LinkedIn",
-    title: "React.js Essential Training",
+    platform: "Metrix Youth",
+    title: "Certificate of Appreciation (5th Edition - 2024)",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: <FiLinkedin className="text-blue-700 text-4xl p-2 font-bold" />,
+    // icon2: <FaMedal className="text-orange-500 text-5xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">M</span>,
     link: "#",
-    image: "/project.png",
+    image: "/METRIX.png", // appreciation certificate image
   },
   {
-    platform: "Educative",
-    title: "Understanding Redux: A Beginner’s Guide To State Management",
+    platform: "NFTP",
+    title: "Technical Domain Training (Batch 05)",
     icon1: <TbCertificate className="text-yellow-700 text-4xl font-bold" />,
-    icon2: <SiEducative className="text-red-500 text-4xl p-2 font-bold" />,
+    // icon2: <FiLinkedin className="text-blue-700 text-4xl p-2 font-bold" />,
+    icon2: <span className="text-blue-600 text-5xl p-2 font-bold">N</span>,
     link: "#",
-    image: "/project.png",
+    image: "/NFTP.png", // NFTP completion certificate
   },
 ];
 

@@ -19,8 +19,8 @@ const experiences = [
   {
     company: "Markit Brain Ltd.",
     location: "Rawalpindi, Pakisatn",
-    position: "Back End Developer (Intern)",
-    duration: "Mar 2022 - May 2022 ",
+    position: "Front-End Developer (Intern)",
+    duration: "Aug 2024 - Oct 2024 ",
     tasks: [
       "Worked on a variety of projects, including Epiko Market, CricTracker, and SportsBuzz.",
       "Collaborated in teams of developers, UI designers, and backend developers.",
@@ -32,8 +32,8 @@ const experiences = [
   {
     company: "ITSolera",
     location: "Islamabad, G12, Pakistan",
-    position: "Web Developer (intern)",
-    duration: "FEB 2024 - Aug 2024 ",
+    position: "MERN Stack Developer (Intern)",
+    duration: "Dec 2024 – Mar 2025 ",
     tasks: [
       "Designed numerous responsive themes using HTML/CSS and ReactJS, ensuring user-friendly and visually appealing web interfaces.",
       "Successfully integrated REST APIs, enhancing website functionality and user experience.",
