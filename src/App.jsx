@@ -32,31 +32,39 @@ function App() {
                 <section id="about">
                   <AboutMe />
                 </section>
+
                 <section id="education">
                   <Education />
                 </section>
+
                 <section id="experience">
                   <Experience />
                 </section>
+
                 <section id="ResumeCard">
                   <ResumeCard />
-                </section>
+                </section> 
+
                 <section id="Certificates">
-                  <Certificates /> {/* Add the Certificates component here */}
+                  <Certificates />
                 </section>
+
                 <section id="Skills">
                   <Skills />
                 </section>
-                <section id="projects">
+
+            <section id="projects">
                   <Projects />
-                </section>
+                </section> 
+
                 <section id="TeamSlider">
                   <TeamSlider />
-                </section>
+                </section> 
 
-                <section id="contact">
+                 <section id="contact">
                   <ContactSection />
-                </section>
+                </section> 
+
               </>
             }
           />
