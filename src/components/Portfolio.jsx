@@ -123,8 +123,8 @@ const Portfolio = () => {
           {/* Image on the left */}
           <div className="w-32 h-32 md:w-48 md:h-48 rounded-full border-1 border-yellow-500 shadow-lg shadow-yellow-500 overflow-hidden md:mr-8 bg-gray-300">
             <img
-              src="/waqas.png" // Replace with your image URL
-              alt="Waqas Gul"
+              src="/3.jpg" // Replace with your image URL
+              alt="Ahmad Ullah"
               className="w-full h-full object-cover"
             />
           </div>
@@ -132,7 +132,7 @@ const Portfolio = () => {
           {/* Right side: Name and Details */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl font-bold font-sans bg-gradient-to-t from-yellow-500 to-orange-500 bg-clip-text text-transparent">
-              Ahmad Ullah
+              Engr Ahmad Ullah
             </h1>
             <p className="text-xl font-mono mt-2 text-gray-700 dark:text-gray-300">
               MERN Stack Developer / WEB DESIGNER
@@ -142,7 +142,7 @@ const Portfolio = () => {
             <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/waqas-gul-b7580826b/"
+                href="https://www.linkedin.com/in/ahmad-ullah-36945b256/"
                 className="inline-flex items-center gap-2 font-mono w-fit px-3 py-2 rounded-md shadow-md bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
               >
                 <FaLinkedin className="text-2xl text-blue-700" />
@@ -158,14 +158,14 @@ const Portfolio = () => {
               </a>
               <a
                 target="_blank"
-                href="https://www.facebook.com/WAQASI.369/"
+                href="https://www.facebook.com/ahmad.khan.380031"    //place facebook link here
                 className="inline-flex items-center gap-2 rounded-md shadow-md w-fit px-3 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
               >
                 <FaFacebookSquare className="text-2xl text-blue-600" />
-                https://www.facebook.com/itx.malakadnan
+                https://www.facebook.com/ahmad
               </a>
               <a
-                href="https://wa.me/923488446186"
+                href="https://wa.me/923003331124"
                 className="inline-flex items-center rounded-md shadow-md gap-2 w-fit px-3 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -189,7 +189,7 @@ const Portfolio = () => {
               <p className="font-sans text-gray-700 dark:text-gray-300 mb-8">
                 I’m Ahmad Ullah, a MERN Stack Developer from Pakistan. I hold a
                 Bachelor's degree in Software Engineering from the University of
-                Malakand. With 3 years of experience, I specialize in designing,
+                Malakand. With 2 years of experience, I specialize in designing,
                 building, and maintaining scalable web applications. Proficient
                 in React.js, Next.js, Node.js, Express.js, MongoDB, Redux,
                 Tailwind CSS, and Material UI.

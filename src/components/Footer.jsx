@@ -172,7 +172,7 @@ const Footer = () => {
                 <FaFacebook />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.instagram.com/ahmadsha.333?igsh=OWRsejBvaWhrOXY2"
                 target="_blank"
                 whileHover={{ scale: 1.2 }}
                 className="text-[#1DA1F2] hover:scale-110 transition-transform duration-300 text-2xl hover:rotate-12"

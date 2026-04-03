@@ -29,6 +29,11 @@ const data = [
     icon: <FaInstagram className="text-pink-500" />,
     link: "https://www.instagram.com/ahmadsha.333/?next=%2F",
   },
+  {
+    name: "Gmail",
+    icon: <FaInstagram className="text-pink-500" />,
+    link: "https://www.instagram.com/ahmadsha.333/?next=%2F",
+  },
 ];
 
 export default function ContactSection() {
