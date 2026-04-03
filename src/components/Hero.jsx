@@ -116,7 +116,7 @@ const Hero = () => {
         <p className="text-base sm:text-lg font-mono">
           With{" "}
           <span className="bg-gray-200 text-yellow-400 font-bold dark:bg-gray-800 px-2 py-1 rounded">
-            2+ Years
+            1+ Years
           </span>{" "}
           of Experience
         </p>
