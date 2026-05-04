@@ -57,9 +57,9 @@ function App() {
                   <Projects />
                 </section> 
 
-                <section id="TeamSlider">
+                {/* <section id="TeamSlider">
                   <TeamSlider />
-                </section> 
+                </section>  */}
 
                  <section id="contact">
                   <ContactSection />

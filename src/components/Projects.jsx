@@ -22,6 +22,22 @@ const projects = [
       { icon: <SiJavascript className="text-yellow-500" />, name: "JavaScript" },
     ],
   },
+
+  // ✅ NEW PROJECT ADDED (SECOND POSITION)
+  {
+    name: "Mobile Marketplace Platform",
+    image: "/mobile-marker.jpeg",
+    Glink: "https://github.com/ahmadullah11/mobilesMarket",
+    Wlink: "https://mobiles-market.vercel.app/",
+    technologies: [
+      { icon: <FaReact className="text-blue-500" />, name: "React.js" },
+      { icon: <IoLogoNodejs className="text-green-500" />, name: "Node.js" },
+      { icon: <SiExpress className="text-yellow-400" />, name: "Express.js" },
+      { icon: <RiTailwindCssFill className="text-blue-500" />, name: "Tailwind CSS" },
+      { icon: <SiJavascript className="text-yellow-500" />, name: "JavaScript" },
+    ],
+  },
+
   {
     name: "DARK HAIR SALON",
     image: "/darkINK.png",
@@ -37,6 +53,7 @@ const projects = [
       { icon: <SiJavascript className="text-yellow-500" />, name: "JavaScript" },
     ],
   },
+
   {
     name: "AML FOR CRYPTO",
     image: "/AML.png",
@@ -49,6 +66,7 @@ const projects = [
       { icon: <SiJavascript className="text-yellow-500" />, name: "JavaScript" },
     ],
   },
+
   {
     name: "OAKRIDGE DATASET",
     image: "/dataset.png",
@@ -92,7 +110,9 @@ export default function Projects() {
                   <h3 className="text-2xl font-bold text-yellow-500 font-sans">{project.name}</h3>
                   <FaInfoCircle className="text-xl cursor-pointer text-gray-400 dark:text-gray-200 hover:text-yellow-400" />
                 </div>
+
                 <p className="mt-2 text-sm opacity-80 font-mono">Website</p>
+
                 <div className="mt-3 flex flex-wrap gap-2">
                   {project.technologies.map((tech, idx) => (
                     <span
@@ -103,6 +123,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
                 <div className="flex gap-3 mt-4">
                   {project.Glink && (
                     <a
@@ -114,6 +135,7 @@ export default function Projects() {
                       <FaGithubSquare className="lg:text-2xl text-xl animate-bounce" /> Go to Github
                     </a>
                   )}
+
                   {project.Wlink && (
                     <a
                       href={project.Wlink}
@@ -121,7 +143,8 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="lg:text-base text-[.6rem] inline-flex items-center lg:px-4 px-2 py-2 bg-transparent hover:bg-gray-700 shadow-md border border-yellow-400 text-yellow-400 font-bold rounded-lg relative overflow-hidden transition-all duration-300 ease-in-out hover:bg-gradient-to-r from-yellow-500 to-orange-500 hover:text-white hover:scale-105 hover:rotate-6"
                     >
-                      Go to {project.name} <FaLocationArrow className="lg:ml-2 ml-1 text-xl animate-bounce" />
+                      Go to {project.name}
+                      <FaLocationArrow className="lg:ml-2 ml-1 text-xl animate-bounce" />
                     </a>
                   )}
                 </div>

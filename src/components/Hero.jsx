@@ -122,26 +122,34 @@ const Hero = () => {
         </p>
 
         <div className="flex  gap-4 mt-8 mb-4 ">
-             <a
-      href="/Eng_Ahmad Ullah (Resume).pdf" // Make sure this path points to your actual resume file
-      download="Eng_Ahmad Ullah (Resume).pdf"       // This sets the downloaded file name
-      className="flex items-center justify-center px-4 lg:px-6 py-2 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold rounded-lg hover:scale-105 shadow-md transition-transform duration-300 ease-in-out"
-    >
-      <FaDownload className="inline mr-2 animate-bounce font-mono" />
-      Resume
-    </a>
-          
+          <a
+            href="/Engr_Ahmad_Ullah_CV.pdf" // Make sure this path points to your actual resume file
+            download="Engr_Ahmad_Ullah_CV" // This sets the downloaded file name
+            className="flex items-center justify-center px-4 lg:px-6 py-2 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold rounded-lg hover:scale-105 shadow-md transition-transform duration-300 ease-in-out"
+          >
+            <FaDownload className="inline mr-2 animate-bounce font-mono" />
+            Resume
+          </a>
 
-         <a
-  href="https://drive.google.com/file/d/1ARwsJ2j1A3WvdOq-b1uXJzbvVk0A89ip/view?usp=drive_link"
+          {/* <a
+            href="/Engr_Ahmad_Ullah_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-6 py-2 border border-yellow-400 text-yellow-400 font-bold rounded-lg hover:bg-yellow-500 hover:text-white hover:scale-105"
+          >
+            Hire Me
+            <IoDiamond className="inline ml-2 animate-bounce font-mono transition-all duration-300 ease-in-out group-hover:translate-y-1" />
+          </a> */}
+
+          <a
+  href="https://wa.me/923003331124?text=Hi Ahmad, I saw your portfolio and want to work with you"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center justify-center px-6 py-2 border border-yellow-400 text-yellow-400 font-bold rounded-lg hover:bg-yellow-500 hover:text-white hover:scale-105"
 >
   Hire Me
-  <IoDiamond className="inline ml-2 animate-bounce font-mono transition-all duration-300 ease-in-out group-hover:translate-y-1" />
+  <IoDiamond className="inline ml-2 animate-bounce" />
 </a>
-
         </div>
       </motion.div>
 

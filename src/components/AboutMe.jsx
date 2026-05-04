@@ -143,31 +143,33 @@ export default function AboutMe() {
           className="bg-gray-200 dark:bg-gray-900 p-8 shadow-gray-500 rounded-xl shadow-lg font-sans hover:scale-105 transition-transform duration-350 ease-in-out hover:shadow-yellow-500"
         >
           <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            A passionate <strong>Software Engineer</strong> with over 1.9 years
-            of experience in developing high-performance, scalable web
-            applications. My expertise lies in leveraging modern technologies
-            such as{" "}
-            <strong>
-              React.js, Next.js, Node.js, Express.js, MongoDB, RTK Query, React
-              Query, and JavaScript
-            </strong>
-            , along with state management solutions like <strong>Redux</strong>.
-            I specialize in crafting seamless user experiences with responsive
-            and optimized designs.
-            <br />
-            <br />I have extensive experience working with UI frameworks
-            including{" "}
-            <strong>Tailwind CSS, Bootstrap, Material UI, and Chakra UI</strong>
-            , ensuring visually appealing and user-friendly interfaces adaptable
-            to any device.
-            <br />
-            <br />
-            With a strong background in API development, integration, and clean,
-            maintainable code, I have contributed to well-known platforms like{" "}
-            <strong>CricTracker, SportsBuzz, and Epiko Market</strong>. My
-            commitment to software engineering drives me to deliver efficient
-            and scalable digital solutions.
-          </p>
+  A results-driven <strong>Software Engineer</strong> with over 1.9 years of
+  experience in building scalable, high-performance web applications. Skilled in
+  modern technologies such as{" "}
+  <strong>
+    React.js, Next.js, Node.js, Express.js, MongoDB, RTK Query, React Query, and JavaScript
+  </strong>
+  , along with state management solutions like <strong>Redux</strong>. I focus on
+  delivering seamless user experiences through responsive, optimized, and
+  user-centric designs.
+  
+  <br />
+  <br />
+
+  I have hands-on experience working with UI frameworks including{" "}
+  <strong>Tailwind CSS, Bootstrap, Material UI, and Chakra UI</strong>, enabling
+  me to build visually appealing and highly responsive interfaces across all
+  devices.
+
+  <br />
+  <br />
+
+  With a strong foundation in API development, integration, and writing clean,
+  maintainable code, I have contributed to production-level platforms such as{" "}
+  <strong>CricTracker, SportsBuzz, and Epiko Market</strong>. I thrive in
+  collaborative environments and follow best practices to deliver efficient,
+  scalable, and reliable software solutions.
+</p>
         </motion.div>
 
         {/* Contact Button */}
@@ -179,7 +181,7 @@ export default function AboutMe() {
           className="flex justify-center mt-4 cursor-pointer"
         >
           <a
-            href="https://www.linkedin.com/in/ahmad-ullah-36945b256/"
+            href="https://wa.me/923003331124?text=Hi Ahmad, I saw your portfolio and want to work with you"
             target="_blank"
             className="px-8 py-4 cursor-pointer hover:shadow-yellow-500 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold rounded-xl shadow-lg hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl group hover:rotate-12"
           >

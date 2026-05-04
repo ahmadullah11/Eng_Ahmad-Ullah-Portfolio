@@ -2,46 +2,86 @@ import { FaBuilding, FaMapMarkerAlt } from "react-icons/fa";
 import { FaCalendarCheck } from "react-icons/fa";
 import { GiRingmaster } from "react-icons/gi";
 import { BsBuildingsFill } from "react-icons/bs";
+// const experiences = [
+//   {
+//     company: "ITSolera Pvt. Ltd.",
+//     location: "Islamabad, G12, Pakistan",
+//     position: "MERN Stack Developer (Employee)",
+//     duration: "JAN 2025 - PRESENT",
+//     tasks: [
+//       "Designed and developed over 15 complete React and NextJS full theme templates, showcasing proficiency in front-end design and development.",
+//       "Led the development of the Wired Academy project, a full-stack ReactJS application.",
+//       "Managed both front-end and back-end aspects, utilizing RecatJS API Routes for seamless integration.",
+//       "Integrated Stripe Payment Gateway for seamless and secure transactions.",
+//       "Successfully deployed the application on Vercel for optimal performance and accessibility.",
+//     ],
+//   },
+//   {
+//     company: "Markit Brain Ltd.",
+//     location: "Rawalpindi, Pakisatn",
+//     position: "Front-End Developer (Intern)",
+//     duration: "Aug 2024 - Oct 2024 ",
+//     tasks: [
+//       "Worked on a variety of projects, including Epiko Market, CricTracker, and SportsBuzz.",
+//       "Collaborated in teams of developers, UI designers, and backend developers.",
+//       "Demonstrated expertise in designing and building reusable components and pages, ensuring responsiveness and adherence to design specifications.",
+//       "Proficiently handled API integrations, ensuring seamless data exchange, and played an integral role in reviewing and approving/rejecting junior developers' pull requests on GitHub.",
+//       "Played a crucial role in project deployment and debugging across different environments, including Development, Staging, and Production.",
+//     ],
+//   },
+//   {
+//     company: "ITSolera",
+//     location: "Islamabad, G12, Pakistan",
+//     position: "MERN Stack Developer (Intern)",
+//     duration: "Dec 2024 – Mar 2025 ",
+//     tasks: [
+//       "Designed numerous responsive themes using HTML/CSS and ReactJS, ensuring user-friendly and visually appealing web interfaces.",
+//       "Successfully integrated REST APIs, enhancing website functionality and user experience.",
+//       "Proficiently worked with PHP and MySQL, handling CRUD operations using PHP to manage and manipulate data effectively.",
+//     ],
+//   },
+// ];
 const experiences = [
+  {
+    company: "Softech Square Software Solutions Pvt Ltd",
+    location: "Peshawar, KPK, Pakistan",
+    position: "MERN Stack Developer (Employee)",
+    duration: "Oct 2025 – Present",
+    tasks: [
+      "Developed scalable web applications using MERN stack for multi-vendor marketplace platforms, increasing feature delivery speed by 30%.",
+      "Built RESTful APIs with Node.js and Express.js; managed MongoDB databases with optimized schemas reducing query time.",
+      "Implemented JWT authentication and role-based access control (RBAC) ensuring secure, layered user management.",
+      "Collaborated in agile teams using Git, participating in daily standups, code reviews, and sprint planning.",
+    ],
+  },
   {
     company: "ITSolera Pvt. Ltd.",
     location: "Islamabad, G12, Pakistan",
-    position: "MERN Stack Developer (Employee)",
-    duration: "JAN 2025 - PRESENT",
+    position: "MERN Stack Developer (Intern)",
+    duration: "December 2024 – March 2025",
     tasks: [
-      "Designed and developed over 15 complete React and NextJS full theme templates, showcasing proficiency in front-end design and development.",
-      "Led the development of the Wired Academy project, a full-stack ReactJS application.",
-      "Managed both front-end and back-end aspects, utilizing RecatJS API Routes for seamless integration.",
-      "Integrated Stripe Payment Gateway for seamless and secure transactions.",
-      "Successfully deployed the application on Vercel for optimal performance and accessibility.",
+      "Designed and developed over 15 complete React and NextJS full theme templates.",
+      "Led development of Wired Academy project (full-stack React app).",
+      "Managed frontend and backend using ReactJS API routes.",
+      "Integrated Stripe payment gateway for secure transactions.",
+      "Deployed application on Vercel for performance and scalability.",
     ],
   },
   {
     company: "Markit Brain Ltd.",
-    location: "Rawalpindi, Pakisatn",
+    location: "Rawalpindi, Pakistan",
     position: "Front-End Developer (Intern)",
-    duration: "Aug 2024 - Oct 2024 ",
+    duration: "Aug 2024 - Oct 2024",
     tasks: [
-      "Worked on a variety of projects, including Epiko Market, CricTracker, and SportsBuzz.",
-      "Collaborated in teams of developers, UI designers, and backend developers.",
-      "Demonstrated expertise in designing and building reusable components and pages, ensuring responsiveness and adherence to design specifications.",
-      "Proficiently handled API integrations, ensuring seamless data exchange, and played an integral role in reviewing and approving/rejecting junior developers' pull requests on GitHub.",
-      "Played a crucial role in project deployment and debugging across different environments, including Development, Staging, and Production.",
+      "Worked on projects like Epiko Market, CricTracker, and SportsBuzz.",
+      "Collaborated with developers, UI designers, and backend teams.",
+      "Built reusable and responsive components.",
+      "Handled API integrations and reviewed GitHub pull requests.",
+      "Supported deployment and debugging across environments.",
     ],
   },
-  {
-    company: "ITSolera",
-    location: "Islamabad, G12, Pakistan",
-    position: "MERN Stack Developer (Intern)",
-    duration: "Dec 2024 – Mar 2025 ",
-    tasks: [
-      "Designed numerous responsive themes using HTML/CSS and ReactJS, ensuring user-friendly and visually appealing web interfaces.",
-      "Successfully integrated REST APIs, enhancing website functionality and user experience.",
-      "Proficiently worked with PHP and MySQL, handling CRUD operations using PHP to manage and manipulate data effectively.",
-    ],
-  },
+ 
 ];
-
 export default function Experience() {
   return (
     <div className="bg-gray-200 dark:bg-gray-800 py-16 px-4">
